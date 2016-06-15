@@ -1,5 +1,5 @@
-## The functions use the scoping rules to cache the inverse of a matrix 
-## rather than compute it repeatedly if 
+## The functions use the scoping rules to cache the inverse of a matrix.
+## If no changes on the matrix, it will retrieve the cached inverse matrix rather than compute it repeatedly.
 
 ## makeCacheMatrix creates a special "matrix" object that can cache its inverse
 
